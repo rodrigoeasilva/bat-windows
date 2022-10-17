@@ -1,0 +1,7 @@
+icacls *.* /inheritance:e
+*/ o comando acima habilita herança em todos os arquivos dentro do diretorio */
+para ajuda icacls /?
+
+takeown /f *
+*/ o comando acima torna o usuario logado proprietario dos arquivos dentro do diretorio */
+para ajuda takwown /?
